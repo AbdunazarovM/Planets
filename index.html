@@ -5,11 +5,84 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Planets</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-
+  <header class="site-header">
+    <h1 class="visually-hidden">THE PLANETS</h1>
+    <div class="site-header__container container">
+      <a class="logo" href="">
+        <img class="logo-img" src="img/logo.svg" alt="site logo">
+      </a>
+  
+      <nav class="navbar">
+      
+        <ul class="navbar-list">
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+          <li class="navbar-item"><span class="navbar-tab">Earth</span></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
+  <main>
+    <div class="container main__container">
+        <div class="wrapper-img">
+          <img src="img/mars.png" alt="planet img" width="400" height="400">
+        </div>
+        <section class="info-section">
+          <div class="info-text">
+            <h2 class="planet-name">Venus</h2>
+            <p class="planet-info">Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.</p>
+            <p class="planet-info-source">Source : <a class="wikipedia" href="#">Wikipedia</a></p>
+          </div>
+          
+          <ul class="tab-list">
+            <li class="tab-item">
+              <p class="tab-text"><span>01</span>Overview</p>
+            </li>
+            <li class="tab-item">
+              <p class="tab-text"><span>02</span>Internal Structure</p>
+            </li>
+            <li class="tab-item">
+              <p class="tab-text"><span>03</span>Surface Geology</p>
+            </li>
+            
+          </ul>
+          
+        </section>
+    </div>
+
+
+    <div class="main-footer">
+      <div class="main-footer__container container">
+        <ul class="main-footer__list">
+          <li class="main-footer__item">
+            <p class="main-footer__title">Rotation time</p>
+            <p class="main-footer__caption">0.99 days</p>
+          </li>
+          <li class="main-footer__item">
+            <p class="main-footer__title">Revolution time</p>
+            <p class="main-footer__caption">365.26 days</p>
+          </li>
+          <li class="main-footer__item">
+            <p class="main-footer__title">Radius</p>
+            <p class="main-footer__caption">6,371 km</p>
+          </li>
+          <li class="main-footer__item">
+            <p class="main-footer__title">Average temp</p>
+            <p class="main-footer__caption">16°c</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
   
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <script src="js/main.js"></script>
