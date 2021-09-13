@@ -191,10 +191,7 @@ main {
   cursor: pointer;
 }
 
-.tab-item:hover{
-  background-color: rgba(216, 216, 216, 0.2);
 
-}
 .navbar-tab {
   cursor: pointer;
 }
