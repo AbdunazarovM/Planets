@@ -90,10 +90,6 @@ img {
   margin-top: 25px;
   margin-bottom: 20px;
 }
-.logo {
-}
-.navbar {
-}
 .logo-img {
   display: block;
 }
@@ -133,10 +129,6 @@ main {
 .info-section {
   width: 100%;
   max-width: 350px;
-}
-.logo-img {
-}
-.navbar-list {
 }
 .planet-name {
   margin: 0;
@@ -182,16 +174,12 @@ main {
   padding: 0;
   list-style-type: none;
 }
-.navbar-item {
-}
 .tab-item {
   padding: 12px 25px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin-top: 16px;
   cursor: pointer;
 }
-
-
 .navbar-tab {
   cursor: pointer;
 }
@@ -209,12 +197,6 @@ main {
 }
 
 /* MAIN-FOOTER */
-.main-footer{
-
-}
-.main-footer__container{
-  
-}
 .main-footer__list{
   display: flex;
   margin: 0;
