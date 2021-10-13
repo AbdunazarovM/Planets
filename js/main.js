@@ -12,13 +12,13 @@ Vue.component("planets", {
             <button class="burger" @click="showNav = !showNav"></button>
           </div>
     
-          <nav class="navbar">
+          <nav class="navbar" :class="{'show-nav': showNav}">
         
             <ul class="navbar-list">
               <li class="navbar-item" 
               v-for="planet in planetsMenu">
                 <span class="navbar-tab"
-                @click="selectedPlanet = planet"
+                @click="selectedPlanet = planet" @click="[selectedPlanet = planet, showNav = !showNav]"
                 :style="[selectedPlanet == planet? {'color': planets[selectedPlanet].backgroundColor}: {color: '#fff'}]">{{ planet }}</span>
               </li>
             </ul>
@@ -87,6 +87,7 @@ Vue.component("planets", {
       ],
       selectedPlanet: 'Mercury',
       selectedButton: "overview",
+      showNav: false,
       planets: {
         "Mercury": {
           name: "Mercury",
