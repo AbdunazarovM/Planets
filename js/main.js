@@ -4,9 +4,13 @@ Vue.component("planets", {
       <header class="site-header">
         <h1 class="visually-hidden">THE PLANETS</h1>
         <div class="site-header__container container">
-          <a class="logo" href="#">
-            <img class="logo-img" src="img/logo.svg" alt="site logo">
-          </a>
+          <div class="nav-logos">
+            <a class="logo" href="#">
+              <img class="logo-img" src="img/logo.svg" alt="site logo">
+            </a>
+
+            <button class="burger" @click="showNav = !showNav"></button>
+          </div>
     
           <nav class="navbar">
         
